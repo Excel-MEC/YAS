@@ -784,4 +784,52 @@ h1, h2, h3, h4, h5,
   height: 40px;
   line-height: 40px; }
 
+#contactSection .section-content {
+  text-align: center;
+
+  /*margin-top:-2em;*/
+  padding:10vh;
+}
+
+
+.contact-card{
+  text-align: left;
+  display: inline-block;
+  margin: 30px auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+.contact-card p{
+  margin-bottom: 0rem;
+}
+
+.contact-img{
+  width: 200px;
+  height: auto;
+  vertical-align: middle;
+  margin: 0px 20px;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 50%;
+}
+
+.contact-dets{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.5;
+  font-size: 1.25rem;
+}
+
+.contact-mail, .contact-tel{
+  text-decoration: none;
+  color: inherit;
+  transition: 0.5s;
+}
+
+.contact-mail:hover, .contact-tel:hover{
+  color: #007bff;
+  text-decoration: none;
+}
+
 
