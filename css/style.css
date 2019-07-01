@@ -106,6 +106,13 @@ h1, h2, h3, h4, h5,
   @media (min-width: 768px) {
     .site-section-heading h2 {
       font-size: 3rem; } }
+      @media (max-width: 768px) {
+        .site-section {
+          padding: 1em 0; }
+        
+          
+        }
+
   .site-section-heading h2:after {
     content: "";
     left: 0%;
@@ -806,13 +813,16 @@ h1, h2, h3, h4, h5,
 
 .contact-img{
   width: 200px;
-  height: auto;
+  height:auto;
   vertical-align: middle;
   margin: 0px 20px;
   border-style: solid;
   border-width: 0px;
   border-radius: 50%;
+  
 }
+
+
 
 .contact-dets{
   display: inline-block;
@@ -851,9 +861,11 @@ h1, h2, h3, h4, h5,
   }
 
   .contact-img{
-    width: 20vh;
-    height: 20vh;
-    padding-left: 3vw;
+    width: 30vh;
+    height: 30vh;
+    margin-left:-4px;
+    margin-bottom:30px;
+    
   }
   .contact-dets{
   
