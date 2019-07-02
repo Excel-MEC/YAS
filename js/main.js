@@ -83,7 +83,7 @@ jQuery(document).ready(function($) {
 			var $this = $(this);
 			e.preventDefault();
 			var aid = $(this).attr("href");
-      $('html,body').animate({scrollTop: $(aid).offset().top},'veryslow');
+      $('html,body').animate({scrollTop: $(aid).offset().top},1); 
 
 				$('body').removeClass('offcanvas-menu');
 				$this.removeClass('active');
