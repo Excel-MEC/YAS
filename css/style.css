@@ -114,8 +114,10 @@ h1, h2, h3, h4, h5,
           padding: 1em 0;
           font-size: 0.85em;
            }
-        
+        .site-footer{
+          font-size: 0.85em;
           
+        }
         }
 
   .site-section-heading h2:after {
