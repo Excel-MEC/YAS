@@ -24,7 +24,6 @@ html {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
-  /*
   @media (min-width: 576px) {
     .container {
       max-width: 540px; } }
@@ -36,7 +35,7 @@ html {
       max-width: 960px; } }
   @media (min-width: 1200px) {
     .container {
-      max-width: 1140px; } } */
+      max-width: 1140px; } }
 
 .container-fluid {
   width: 100%;
