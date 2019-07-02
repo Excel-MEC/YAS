@@ -1,6 +1,8 @@
 /* Base */
-body {
+html,body {
   width:100vw !important;
+  margin:0;
+  overflow-x: hidden;
   line-height: 1.5;
   color: #cfcfd1;
   font-weight: 300;
