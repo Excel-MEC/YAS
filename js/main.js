@@ -77,6 +77,19 @@ jQuery(document).ready(function($) {
 			}
 		}) 
 
+		// new addition
+
+		$('body').on('click', '.nav-element', function(e) {
+			var $this = $(this);
+			e.preventDefault();
+			var aid = $(this).attr("href");
+      $('html,body').animate({scrollTop: $(aid).offset().top},'veryslow');
+
+				$('body').removeClass('offcanvas-menu');
+				$this.removeClass('active');
+			
+		}) 
+
 		// click outisde offcanvas
 		$(document).mouseup(function(e) {
 	    var container = $(".site-mobile-menu");
