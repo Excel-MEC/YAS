@@ -5,6 +5,13 @@
  });
 
 jQuery(document).ready(function($) {
+  if ($(window).width() < 371) {
+		$('#nav-bar').removeClass("col-11");
+		$('#nav-bar').addClass("col-10");
+} else {
+	$('#nav-bar').removeClass("col-10");
+	$('#nav-bar').addClass("col-11");
+}
 
 	"use strict";
 
@@ -57,14 +64,7 @@ jQuery(document).ready(function($) {
 			var $this = $(this),
 				w = $this.width();
 
-				if ( w < 371) {
-					$('#nav-bar').removeClass("col-11");
-					$('#nav-bar').addClass("col-10");
-			 }
-			 else{
-				$('#nav-bar').removeClass("col-10");
-				$('#nav-bar').addClass("col-11");
-			 }
+			
 
 			if ( w > 768 ) {
 				if ( $('body').hasClass('offcanvas-menu') ) {
