@@ -313,6 +313,11 @@ h1, h2, h3, h4, h5,
   height:55px;
   
 }
+.menu-adjust
+{
+  position: relative; 
+  top: 3px;
+}
 
 .site-navbar {
   height:78px;
@@ -862,7 +867,7 @@ h1, h2, h3, h4, h5,
   text-decoration: none;
 }
 
-@media only screen and (max-width:700px)
+@media only screen and (max-width:768px)
 {
   .site-navbar{
     background:#1b1d24;
@@ -871,10 +876,14 @@ h1, h2, h3, h4, h5,
     {
       margin-top:-40px;
     }
-
+    .menu-adjust{
+      margin-top:-40px;
+      
+    }
     .hide{
       display:none;
     }
+    
 }
 @media only screen and (max-width: 500px) {
   
