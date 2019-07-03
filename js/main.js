@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
 
 	"use strict";
 
-	
+			
 
 	var siteMenuClone = function() {
 
@@ -57,12 +57,22 @@ jQuery(document).ready(function($) {
 			var $this = $(this),
 				w = $this.width();
 
+				if ( w < 371) {
+					$('#nav-bar').removeClass("col-11");
+					$('#nav-bar').addClass("col-10");
+			 }
+			 else{
+				$('#nav-bar').removeClass("col-10");
+				$('#nav-bar').addClass("col-11");
+			 }
+
 			if ( w > 768 ) {
 				if ( $('body').hasClass('offcanvas-menu') ) {
 					$('body').removeClass('offcanvas-menu');
 				}
 			}
 		})
+
 
 		$('body').on('click', '.js-menu-toggle', function(e) {
 			var $this = $(this);
