@@ -1,6 +1,6 @@
 /* Base */
 html,body {
-  width:100vw !important;
+  width:100vw;
   margin:0;
   overflow-x: hidden;
   line-height: 1.5;
@@ -852,6 +852,9 @@ h1, h2, h3, h4, h5,
 
 
 @media only screen and (max-width: 500px) {
+  .hide{
+    display:none;
+  }
   .contact-card p{
     font-size: 1.5rem;
     line-height: 1.8rem;
