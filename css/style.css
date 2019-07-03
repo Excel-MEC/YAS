@@ -306,7 +306,16 @@ h1, h2, h3, h4, h5,
     border-radius: 50%; }
 
 /* Navbar */
+#navlogo
+{
+  margin-top:-20px;
+  width:55px;
+  height:55px;
+  
+}
 .site-navbar {
+  background: #1b1d24;
+  margin-top:-15px;
   margin-bottom: 0px;
   z-index: 1999;
   position: fixed;
@@ -346,7 +355,8 @@ h1, h2, h3, h4, h5,
       display: inline-block;
       text-transform: uppercase;
       letter-spacing: .1em;
-      font-size: 14px; }
+      font-size: 14px; 
+    }
     .site-navbar .site-navigation .site-menu > li {
       display: inline-block;
       padding: 10px 10px; }
@@ -850,8 +860,17 @@ h1, h2, h3, h4, h5,
   text-decoration: none;
 }
 
+@media only screen and (max-width:700px)
+{
+  .site-navbar{
+    background: transparent; }
 
+    .hide{
+      display:none;
+    }
+}
 @media only screen and (max-width: 500px) {
+  
   .hide{
     display:none;
   }
