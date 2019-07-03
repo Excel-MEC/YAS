@@ -313,6 +313,7 @@ h1, h2, h3, h4, h5,
   height:55px;
   
 }
+
 .site-navbar {
   height:78px;
   background: #1b1d24;
@@ -864,7 +865,12 @@ h1, h2, h3, h4, h5,
 @media only screen and (max-width:700px)
 {
   .site-navbar{
-    background: transparent; }
+    background:#1b1d24;
+    height:70px; }
+    #navlogo
+    {
+      margin-top:-40px;
+    }
 
     .hide{
       display:none;
