@@ -314,6 +314,7 @@ h1, h2, h3, h4, h5,
   
 }
 .site-navbar {
+  height:78px;
   background: #1b1d24;
   margin-top:-15px;
   margin-bottom: 0px;
