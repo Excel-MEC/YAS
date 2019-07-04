@@ -876,11 +876,18 @@ h1, h2, h3, h4, h5,
     .hide{
       display:none;
     }
-    .sponsors-container .college-logo
+  .sponsors-container .college-logo
 {
-  height:210px;
+  height:228px;
   width:200px;
   margin-left:25px;
+}
+.sponsors-container .ieee-logo{
+  margin-top:50px;
+}
+.sponsors-container .sb-logo
+{
+  margin-top:50px;
 }
 }
 @media only screen and (max-width: 500px) {
@@ -939,9 +946,20 @@ h1, h2, h3, h4, h5,
 @media only screen and (min-width:768px){
 .sponsors-container .college-logo
 {
-  height:210px;
+  height:228px;
   width:200px;
   margin-left:100px;
   
+}
+.sponsors-container .ieee-logo{
+  margin-top:60px;
+  margin-left:100px;
+ 
+}
+.sponsors-container .sb-logo
+{
+  height:228px;
+  width:220px;
+  margin-left:180px;
 }
 }
