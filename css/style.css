@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5,
 
 .site-navbar {
   height:78px;
-  background: #1b1d24;
+  background: #41444b;
   margin-top:-15px;
   margin-bottom: 0px;
   z-index: 1999;
@@ -879,11 +879,11 @@ h1, h2, h3, h4, h5,
   .sponsors-container .college-logo
 {
   height:228px;
-  width:200px;
+  width:190px;
   margin-left:25px;
 }
 .sponsors-container .ieee-logo{
-  margin-top:50px;
+  margin-top:57x;
 }
 .sponsors-container .sb-logo
 {
@@ -967,7 +967,7 @@ h1, h2, h3, h4, h5,
 .sponsors-container .college-logo
 {
   height:228px;
-  width:200px;
+  width:190px;
   margin-left:25px;
 }
 .sponsors-container .ieee-logo{
