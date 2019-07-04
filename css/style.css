@@ -953,13 +953,27 @@ h1, h2, h3, h4, h5,
 }
 .sponsors-container .ieee-logo{
   margin-top:60px;
-  margin-left:100px;
+  margin-left:5px;
  
 }
 .sponsors-container .sb-logo
 {
   height:228px;
   width:220px;
-  margin-left:180px;
+  margin-left:50px;
 }
 }
+
+.sponsors-container .college-logo
+{
+  height:228px;
+  width:200px;
+  margin-left:25px;
+}
+.sponsors-container .ieee-logo{
+  margin-top:50px;
+
+  
+}
+
+
