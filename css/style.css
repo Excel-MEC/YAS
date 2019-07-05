@@ -862,6 +862,10 @@ h1, h2, h3, h4, h5,
 
 @media only screen and (max-width:768px)
 {
+  .mob-adjust
+  {
+    margin-top:30px;
+  }
   .site-navbar{
     background:#41444b;
     height:70px; }
@@ -891,6 +895,7 @@ h1, h2, h3, h4, h5,
 }
 }
 @media only screen and (max-width: 500px) {
+ 
   
   .hide{
     display:none;
