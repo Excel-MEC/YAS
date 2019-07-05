@@ -882,7 +882,7 @@ h1, h2, h3, h4, h5,
     }
   .sponsors-container .college-logo
 {
-  height:228px;
+  height:245px;
   width:190px;
   margin-left:25px;
 }
@@ -951,7 +951,7 @@ h1, h2, h3, h4, h5,
 @media only screen and (min-width:768px){
 .sponsors-container .college-logo
 {
-  height:228px;
+  height:245px;
   width:200px;
   margin-left:100px;
   
@@ -971,7 +971,7 @@ h1, h2, h3, h4, h5,
 
 .sponsors-container .college-logo
 {
-  height:228px;
+  height:245px;
   width:190px;
   margin-left:25px;
 }
